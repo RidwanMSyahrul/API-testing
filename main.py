@@ -1,7 +1,6 @@
 # import package
 
 from fastapi import FastAPI, Request, HTTPException, Header
-import pandas as pd
 
 #isi headers
 # informasi metadat
@@ -9,7 +8,7 @@ import pandas as pd
 # ngasih tahu request/response berasal dari mana
 # untuk otentikasi
 # untuk melakukan request -> masukin username & password
-# 
+
 
 
 app = FastAPI()
